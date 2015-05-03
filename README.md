@@ -1,4 +1,4 @@
-\#airportbingo
-=============
+\#Product Hunt B.I.N.G.O
+========================
 
-Add some cynical fun to your bleak miserable travel experience!
+Play along every day on www.producthunt.com
