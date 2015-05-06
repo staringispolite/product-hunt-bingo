@@ -90,7 +90,7 @@
 <script type="text/javascript">
   var NUM_SQUARES_PER_SIDE = 5;
   var CENTER_SQUARE = 
-  "A comment by @rrhoover<br>[FREE SQUARE]";
+  "A comment by @rrhoover:<br>FREE SQUARE";
   var squares = [
     "Free email-based course",
     "\"X for Y\" tagline",
@@ -102,7 +102,7 @@
     "Comment from Ryan \"Reminds me of X\"",
     "Animated gif in the comments",
     "Product to support another product (eg Meerkat Stats)",
-    "A ProductHunt product about ProductHunt",
+    "A Product Hunt product about Product Hunt",
     "A Silly App&trade;",
     "An \"Invisible App\"",
     "Team wasn't ready/expecting product to be posted",
@@ -114,14 +114,14 @@
     "Someone being helpful",
     "Product posted before 12:05am PST",
     "Android-first launch",
-    "A special for ProductHunt users",
+    "A special for Product Hunt users",
     "A keyboard product",
     "A product for trolling your friends"
   ];
 </script>
 </head>
 <body>
-  <h1>ProductHunt BINGO</h1>
+  <h1>Product Hunt BINGO</h1>
   <h4>Play along on the front page every day! <a href="//www.producthunt.com/?ref=phbingo">producthunt.com</a></h4>
   <table cellpadding="0" cellspacing="0">
     <tr>
@@ -194,6 +194,7 @@
 
           if (i == 2 && j == 2) {
             sq.html(CENTER_SQUARE);
+            sq.addClass('selected');
           } else {
             sq.html(squares[i*NUM_SQUARES_PER_SIDE + j]);
           }
